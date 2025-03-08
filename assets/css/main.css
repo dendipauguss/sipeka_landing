@@ -793,7 +793,13 @@ section,
 
 .hero .container {
   position: relative;
-  z-index: 3;
+  z-index: 3;  
+    display: flex;
+    align-items: flex-end; /* Menjaga agar breadcrumb di bawah */
+    justify-content: center;
+    height: 100%; /* Pastikan tinggi penuh */
+    width: 100%;
+
 }
 
 .hero h2 {
