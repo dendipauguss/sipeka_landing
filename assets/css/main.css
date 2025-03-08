@@ -1438,7 +1438,7 @@ section,
 }
 
 .pricing ul .na span {
-  text-decoration: none;
+  text-decoration: line-strength;
 }
 
 .pricing .buy-btn {
